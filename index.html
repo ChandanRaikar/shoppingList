@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>::Shopping Todo::</title>
+	<link rel="stylesheet" type="text/css" href="lib/css/style.css">
+	<link rel="stylesheet" type="text/css" href="lib/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Raleway" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<span class="app-title">
+			<i class="fa fa-check-circle" aria-hidden="true"></i> MyList
+		</span>
+	</header><br>
+	<div class="container">
+		<form method="post" name="listform">
+			<input id="itemname" type="text" value="" name="item" placeholder="Ex: butter and milk" required>
+			<button class="btn btn-peace" id="addList"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Add to List</button>
+		</form>
+		<div id="shopList">	
+		
+		</div>
+	</div>
+<script type="text/javascript" src="lib/js/jquery-3.2.0.min.js"></script>
+<script type="text/javascript" src="lib/js/application.js"></script>
+</body>
+</html>
